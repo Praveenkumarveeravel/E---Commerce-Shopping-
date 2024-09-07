@@ -1,0 +1,52 @@
+Project Title: E-commerce Shopping Cart System
+Project Description:
+The E-commerce Shopping Cart System is a Java-based console application that simulates the functionality of a basic shopping cart in an online store. This project allows users to interact with a product catalog, add items to their cart, view the cart's contents, remove items, and check the total cost of their selected products. The program uses object-oriented principles by organizing products and cart functionality into separate classes.
+
+Key Features:
+Product Catalog:
+
+A pre-defined list of products (like laptops, smartphones, headphones, etc.) is displayed to the user, where each product is defined by its ID, name, and price.
+Add Product to Cart:
+
+Users can add products to their cart by entering the corresponding product ID from the catalog.
+View Cart:
+
+Users can view all products in their cart, showing details such as the product ID, name, and price.
+Remove Product from Cart:
+
+Users can remove products from the cart by specifying the product ID.
+Total Cost Calculation:
+
+The system calculates and displays the total price of all products in the cart, including the currency symbol for the Indian Rupee (₹).
+Menu-driven System:
+
+The application uses a simple text-based menu system, allowing users to choose from options such as viewing the catalog, adding/removing products, or exiting the system.
+Technology Stack:
+Programming Language: Java
+Data Structures: ArrayList (for storing products in the cart) and HashMap (for product catalog storage)
+User Input: The application uses the Scanner class to accept user inputs.
+Classes and Methods:
+Product Class:
+
+Attributes: id, name, and price.
+Methods: Getters for each attribute and a toString() method for displaying product information.
+Cart Class:
+
+Attributes: A list of Product objects representing the user's selected items.
+Methods:
+addProduct(Product product): Adds a product to the cart.
+viewCart(): Displays the list of products in the cart along with the total price.
+removeProduct(int productId): Removes a product from the cart based on the product ID.
+calculateTotal(): Calculates the total cost of products in the cart.
+Main Class (ShoppingCartSystem):
+
+A text-based menu system where users can select options to interact with the shopping cart system.
+Use Cases:
+Online Shopping Simulation: This project can serve as the foundation for an online shopping system where users can explore a catalog, manage their shopping cart, and perform checkout.
+Learning Purpose: A practical project for understanding object-oriented programming in Java, handling user inputs, and implementing collections like ArrayList and HashMap.
+Future Improvements:
+Integration of a payment system to complete purchases.
+Persistence of cart data using file handling or databases.
+Enhanced product search and filtering options.
+A graphical user interface (GUI) to replace the console-based input.
+This project is a great introduction to building real-world applications using Java and lays the groundwork for more advanced e-commerce solutions.
